@@ -116,13 +116,22 @@
                 <label class="b-form-search__label" for="date-check-out">Дата выезда:</label>
                 <input type="date" name="date-check-out" class="b-form-search__input-date" value="04.07.2014">
                 
-                <div class="b-halw-col-1">
-                    <label class="b-form-search__label" for="adults">Взрослые:</label>
-                    <input type="range" step="1" min="1" max="10" value="2">                    
+                <div class="b-halw-col">
+                    <label class="b-form-search__label" for="adults-count">Взрослые:</label>
+                    <input type="text" name="adults-count" value="2">
+                    <div class="b-range-select">
+                        <a class="b-range__up" href="#">+</a>
+                        <a class="b-range__down" href="#">-</a>
+                    </div>                    
                 </div> 
-                <div class="b-halw-col-2">
+                
+                <div class="b-halw-col">
                     <label class="b-form_search__label" for="children">Дети:</label>
-                    <input type="range" step="1" min="0" max="10" value="0">
+                    <input type="text" name="children-count" value="0">
+                    <div class="b-range-select">
+                        <a class="b-range__up" href="#">+</a>
+                        <a class="b-range__down" href="#">-</a>
+                    </div>
                 </div>
                 
                 <input class="b-form-search__submit" type="submit" value="Найти">
@@ -131,9 +140,9 @@
         
         <section class="b-footer">
             
-            <div class="b-footer-col-1">#Visitsedona</div>
+            <div class="b-footer-col-left">#Visitsedona</div>
             
-            <div class="b-footer-col-2">
+            <div class="b-footer-col-center">
                 <ul class="b-social-btns">
                     <li class="b-social-btns__item"><i class="fa fa-twitter"></i></li>
                     <li class="b-social-btns__item"><i class="fa fa-facebook"></i></li>
@@ -141,7 +150,7 @@
                 </ul>
             </div>
             
-            <div class="b-footer-col-3">
+            <div class="b-footer-col-right">
                 <span class="b-copyright">WEBSITE BY <img src="#" alt="Name"> FOR <img src="#" alt="HTMLACADEMY"></span>
             </div>
                  
